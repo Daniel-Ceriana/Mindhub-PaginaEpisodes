@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* palette */
+    /* font-sizes */
+    --font-h2: 2.4em;
+    --font-p: 1.2em;
+    --font-h3: 3.0em;
+    /* spacings */
+    --spacing-2-8: 2.8rem;
+    --spacing-2-4: 2.4rem;
+    --spacing-1-8: 1.8rem;
+    --spacing-1-2: 1.2rem;
+    --spacing-1: 1rem;
+    --spacing-0-8: 0.8rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100vw;
+    justify-content: space-around;
+}
