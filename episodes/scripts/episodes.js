@@ -30,4 +30,4 @@ const episodeList = async(page = 1) => {
     }
 }
 
-episodeList();
+episodeList(1);
