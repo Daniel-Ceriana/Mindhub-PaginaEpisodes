@@ -1,6 +1,6 @@
 import { getCharacters, getEpisodeWithLink } from "./services/getData.js";
 
-const display = document.querySelector("main");
+const display = document.querySelector(".grid-container");
 
 
 
@@ -19,7 +19,7 @@ const characterList = async(page = 1) => {
 
             article.setAttribute('class', 'character');
             article.innerHTML = `
-            <div class="grid-container">
+
             <div class="grid-item">
                 <div class="tarjeta">
                    <img src="${character.image}" class="img-fluid" alt="imagen de: ${character.name}">
