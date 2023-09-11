@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo>picture>img {
+    background-color: white;
+    color: white;
+    height: 100px;
+    width: 120px;
+}
+
+.buttons-pagination {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.pagination {}
+
+.search-compare {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.search {}
+
+.compare {
+    color: white;
+}
+
+.compare>img {}
